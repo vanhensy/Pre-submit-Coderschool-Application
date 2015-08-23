@@ -107,7 +107,6 @@
         <!--Setting-->
         <scene sceneID="w0V-Ii-nDH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rut-Zz-rJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="QmM-ku-r7f" customClass="SettingViewController" customModule="Tipcal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="59l-J2-0jU">
                         <rect key="frame" x="0.0" y="64" width="320" height="568"/>
@@ -153,6 +152,7 @@
                         <outlet property="defaultTipControl" destination="wzs-6J-GVv" id="i82-Yc-iON"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rut-Zz-rJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1442" y="368"/>
         </scene>
@@ -179,7 +179,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Umg-Bo-0Hc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="STm-0f-Omw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FWB-u1-J5a" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="IUh-xH-tyY">
@@ -196,6 +195,7 @@
                         <segue destination="QmM-ku-r7f" kind="relationship" relationship="rootViewController" id="CBx-DP-YQv"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STm-0f-Omw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1036" y="368"/>
         </scene>

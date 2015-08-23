@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BC2AA76C1B862B6D00B8FC36 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2AA76B1B862B6D00B8FC36 /* MenuViewController.swift */; };
-		BC2AA76E1B87C10300B8FC36 /* nut4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2AA76D1B87C10300B8FC36 /* nut4.png */; };
-		BC2AA7721B89E10300B8FC36 /* calculator48.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2AA7711B89E10300B8FC36 /* calculator48.png */; };
+		BC2AA7751B89F3A800B8FC36 /* calculator48.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2AA7731B89F3A800B8FC36 /* calculator48.png */; };
+		BC2AA7761B89F3A800B8FC36 /* nut4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2AA7741B89F3A800B8FC36 /* nut4.png */; };
 		BC9A0E521B84D77800BAA446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A0E511B84D77800BAA446 /* AppDelegate.swift */; };
 		BC9A0E541B84D77800BAA446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A0E531B84D77800BAA446 /* ViewController.swift */; };
 		BC9A0E571B84D77800BAA446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9A0E551B84D77800BAA446 /* Main.storyboard */; };
@@ -31,8 +31,8 @@
 
 /* Begin PBXFileReference section */
 		BC2AA76B1B862B6D00B8FC36 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		BC2AA76D1B87C10300B8FC36 /* nut4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nut4.png; path = ../../../Downloads/nut4.png; sourceTree = "<group>"; };
-		BC2AA7711B89E10300B8FC36 /* calculator48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator48.png; path = ../../../Downloads/calculator48.png; sourceTree = "<group>"; };
+		BC2AA7731B89F3A800B8FC36 /* calculator48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator48.png; path = images/calculator48.png; sourceTree = "<group>"; };
+		BC2AA7741B89F3A800B8FC36 /* nut4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nut4.png; path = images/nut4.png; sourceTree = "<group>"; };
 		BC9A0E4C1B84D77800BAA446 /* Tipcal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipcal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9A0E501B84D77800BAA446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9A0E511B84D77800BAA446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 		BC9A0E4F1B84D77800BAA446 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC2AA7711B89E10300B8FC36 /* calculator48.png */,
-				BC2AA76D1B87C10300B8FC36 /* nut4.png */,
+				BC2AA7731B89F3A800B8FC36 /* calculator48.png */,
+				BC2AA7741B89F3A800B8FC36 /* nut4.png */,
 				BC9A0E501B84D77800BAA446 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -205,9 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9A0E571B84D77800BAA446 /* Main.storyboard in Resources */,
+				BC2AA7761B89F3A800B8FC36 /* nut4.png in Resources */,
+				BC2AA7751B89F3A800B8FC36 /* calculator48.png in Resources */,
 				BC9A0E5C1B84D77800BAA446 /* LaunchScreen.xib in Resources */,
-				BC2AA7721B89E10300B8FC36 /* calculator48.png in Resources */,
-				BC2AA76E1B87C10300B8FC36 /* nut4.png in Resources */,
 				BC9A0E591B84D77800BAA446 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
